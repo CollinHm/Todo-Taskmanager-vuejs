@@ -16,5 +16,6 @@ export const useProjectsStore = defineStore('projects', {
         deleteProject(id) {
             this.projects = this.projects.filter(p => p.id !== id)
         }
-    }
+    },
+    persist: true
 })
