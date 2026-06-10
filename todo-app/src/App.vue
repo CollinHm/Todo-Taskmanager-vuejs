@@ -44,7 +44,6 @@ nav{
   border-radius: 12px;
   padding: 12px 24px;
   text-decoration: none;
-  border: 2px solid white;
 }
 
 </style>

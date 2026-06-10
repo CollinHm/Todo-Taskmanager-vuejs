@@ -29,13 +29,34 @@ body,
   padding: 40px 20px;
 }
 
+body.light {
+  color: black;
+}
+body.light a{
+  color: black;
+}
+
+body.dark{
+  color: white;
+}
+
+body.dark a{
+  color: white;
+}
+
+
 nav {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-bottom: 40px;
   border-radius: 20px;
+  background-color: #4f46e5;
 }
+
+/*body.dark nav{*/
+/*  background-color: #222;*/
+/*}*/
 
 .navButton {
   text-decoration: none;
@@ -127,3 +148,4 @@ li {
 body.dark li {
   background: rgba(255,255,255,0.05);
 }
+

@@ -107,11 +107,9 @@ ul{
   flex: 1;
 }
 input{
-  color: black !important;
 margin-right: 12px;
 }
 select{
-  color: black  !important;
   margin-right: 12px;
 }
 .input{

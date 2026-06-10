@@ -46,6 +46,10 @@ ul{
 }
 .projectname{
   flex: 1;
+a{
+  text-decoration: none;
+}
+
 }
 div{
   padding: 0 0 48px 24px;
